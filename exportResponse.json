@@ -1,0 +1,202 @@
+{
+  "guild": {
+    "id": "184140444677046274",
+    "name": "Science and Technology",
+    "iconUrl": "https://cdn.discordapp.com/icons/184140444677046274/a_b26da59f624932db4eacccf2562758fe.gif?size=512"
+  },
+  "channel": {
+    "id": "275423111661223936",
+    "type": "GuildTextChat",
+    "categoryId": "367597576016625664",
+    "category": "science \u00A0\uD83D\uDCD7",
+    "name": "chemistry",
+    "topic": "⚗️  The study of properties of organic and inorganic substances and their interactions with other substances."
+  },
+  "dateRange": {
+    "after": "2024-05-07T18:46:52-04:00",
+    "before": null
+  },
+  "exportedAt": "2024-05-07T19:46:55.109612-04:00",
+  "messages": [
+    {
+      "id": "1237548043650465862",
+      "type": "Default",
+      "timestamp": "2024-05-07T19:34:06.137-04:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I am kinda struggling with balancing chemical equations, I'm not sure if we are gonna have anything to write on to find out what coefficient is needed and it's hard for me. Does anyone have some advice?",
+      "author": {
+        "id": "608686463483117568",
+        "name": "amsillybilly",
+        "discriminator": "0000",
+        "nickname": "SillyBilly",
+        "color": "#3498DB",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "218283086285242368",
+            "name": "Member",
+            "color": "#3498DB",
+            "position": 237
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/608686463483117568/891ee3870b35f77be8d0a8a0f5618aff.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1237548198751633438",
+      "type": "Default",
+      "timestamp": "2024-05-07T19:34:43.116-04:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it's the same math concept as Least Common Multiple (LCM)",
+      "author": {
+        "id": "114955761301323783",
+        "name": "blindpyro",
+        "discriminator": "0000",
+        "nickname": "blindpyro - \uD83C\uDDFA\uD83C\uDDF8",
+        "color": "#E67E22",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "218065162454827008",
+            "name": "Staff",
+            "color": "#E67E22",
+            "position": 247
+          },
+          {
+            "id": "319271521703165954",
+            "name": "Postgraduate \uD83D\uDCA0",
+            "color": "#C885EE",
+            "position": 242
+          },
+          {
+            "id": "218283086285242368",
+            "name": "Member",
+            "color": "#3498DB",
+            "position": 237
+          },
+          {
+            "id": "265291046236323850",
+            "name": "Bioengineering \uD83D\uDCDA",
+            "color": "#E91E63",
+            "position": 227
+          },
+          {
+            "id": "265291695543812097",
+            "name": "Neuroscience \uD83D\uDCDA",
+            "color": "#E91E63",
+            "position": 161
+          },
+          {
+            "id": "238393263948693505",
+            "name": "United States \uD83C\uDF0E",
+            "color": "#3498DB",
+            "position": 39
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/114955761301323783/04b63e3668eff65fe7ad39ee8ef59528.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1237548811384127558",
+      "type": "Default",
+      "timestamp": "2024-05-07T19:37:09.179-04:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "me when they don't use the pressure specified in the question  \uD83D\uDE43",
+      "author": {
+        "id": "696013579148853419",
+        "name": "very_small_man",
+        "discriminator": "0000",
+        "nickname": "JustRhys - \uD83C\uDFF4",
+        "color": "#36E11A",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "214673046588489728",
+            "name": "Undergraduate ✏️",
+            "color": "#36E11A",
+            "position": 240
+          },
+          {
+            "id": "218283086285242368",
+            "name": "Member",
+            "color": "#3498DB",
+            "position": 237
+          },
+          {
+            "id": "265291236091494400",
+            "name": "Chemistry \uD83D\uDCDA",
+            "color": "#E91E63",
+            "position": 208
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/696013579148853419/d8c4e797089b8b4b5a74bcd36abee376.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1237548810964701235",
+          "url": "https://cdn.discordapp.com/attachments/275423111661223936/1237548810964701235/image.png?ex=663c0ca5&is=663abb25&hm=9e671a92cf985789fef5d5cc4023f0e85aacc36328ad702e6dbbda66f697bd29&",
+          "fileName": "image.png",
+          "fileSizeBytes": 17255
+        },
+        {
+          "id": "1237548811186868234",
+          "url": "https://cdn.discordapp.com/attachments/275423111661223936/1237548811186868234/SPOILER_image.png?ex=663c0ca5&is=663abb25&hm=823e5e7cf1a427f917dfb80623e5aee5aed2c5f5aa6a2f834a4a7d539d44719d&",
+          "fileName": "SPOILER_image.png",
+          "fileSizeBytes": 29741
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1237550016671776818",
+      "type": "Default",
+      "timestamp": "2024-05-07T19:41:56.542-04:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Chemistry is so hard",
+      "author": {
+        "id": "510972998807846913",
+        "name": "ivirusuploadedi",
+        "discriminator": "0000",
+        "nickname": "VirusUploaded",
+        "color": "#3498DB",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "218283086285242368",
+            "name": "Member",
+            "color": "#3498DB",
+            "position": 237
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/510972998807846913/55fe249246b71947cd1b30a4c0689b3d.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    }
+  ],
+  "messageCount": 4
+}
