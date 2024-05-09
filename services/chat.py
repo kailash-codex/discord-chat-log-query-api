@@ -42,3 +42,16 @@ class ChatService:
         entries = self._session.query(ChatEntity).filter(ChatEntity.timestamp >= startDate, ChatEntity.timestamp <= endDate).all()
         return [entry.to_model() for entry in entries]
     
+    def searchContent(self, substring: str) -> list:
+        """Retrieve chat log entries where content includes a specific substring.
+
+        Args:
+            substring (str): The substring to search for in chat content.
+
+        Returns:
+            list: A list of ChatLogEntry models.
+        """
+        # Query the database for entries containing the substring in the content
+        entries = self._session.query(ChatEntity).filter(ChatEntity.content.like(f"%{substring}%")).all()
+        return [entry.to_model() for entry in entries]
+    

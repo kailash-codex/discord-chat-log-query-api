@@ -3,6 +3,7 @@ from fastapi import HTTPException
 import json
 import subprocess
 
+from env import getenv
 from models.exportrequest import ExportRequest
 
 def exportChatsFromCli(data: ExportRequest):
@@ -10,8 +11,8 @@ def exportChatsFromCli(data: ExportRequest):
     # sevenDaysPrior = datetime.now() - timedelta(days=1, hours=3)
 
     sevenDaysPrior = sevenDaysPrior.strftime("%Y-%m-%d, %H:%M:%S")
-
-    command = f"dotnet DiscordChatExporter.Cli/DiscordChatExporter.Cli.dll export -t {data.token} -c {data.channel_id} -f Json --after '{sevenDaysPrior}' -o exportResponse.json"
+    token = getenv("DISCORD_USER_TOKEN")
+    command = f"dotnet DiscordChatExporter.Cli/DiscordChatExporter.Cli.dll export -t {token} -c {data.channel_id} -f Json --after '{sevenDaysPrior}' -o exportResponse.json"
 
     response = subprocess.run(command, shell=True, capture_output=True, text=True)
     
