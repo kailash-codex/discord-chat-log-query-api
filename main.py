@@ -4,7 +4,6 @@ app = FastAPI()
 
 @app.get("/")
 def healthCheck():
-    print("reach")
     return {"status": "Application Health - Green"}
 
 
